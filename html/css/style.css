@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1.5rem;
+  place-items: center;
+  background: linear-gradient(135deg, #e0f2fe, #f0fdf4);
+  color: #1e293b;
+  font-family: system-ui, sans-serif;
+}
+
+.card {
+  width: min(100%, 34rem);
+  padding: 2.5rem;
+  border: 1px solid #dbeafe;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 1rem 2.5rem #0f172a1a;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  color: #0f766e;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.status {
+  margin-top: 1.5rem;
+  color: #475569;
+}
+
+.status span {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: #dcfce7;
+  color: #166534;
+  font-weight: 700;
+}
